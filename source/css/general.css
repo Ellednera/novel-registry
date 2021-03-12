@@ -1,0 +1,35 @@
+body {
+	margin: 2% 5% 5% 5%;
+	background-color: pink;
+}
+
+h1 {
+	font-size: 42px;
+	text-align: center;
+}
+
+form {
+	margin: 0 5%;
+	text-align: center;
+}
+
+input[type="reset"] {
+	color: red;
+	background-color: lightgray;
+	margin-right: 2%;
+}
+
+input[type="reset"]:hover {
+	background-color: red;
+	color: lightgray;
+}
+
+input[type="submit"] {
+	color: blue;
+	background-color: lightgray;
+	margin-left: 2%;
+}
+
+input[type="submit"]:hover {
+	background-color: powderblue;
+}

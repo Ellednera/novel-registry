@@ -1,0 +1,41 @@
+div.menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: auto;
+	width: 450px;
+	/*all borders must have style befoe they can be formatted*/
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 1px;
+
+	border-left-style: solid;
+	border-left-color: black;
+	border-left-width: 1px;
+	
+	text-align: center;
+	/*green, slightly yellow*/
+	/* background-color: #33ff33;  */
+	/*cyan*/
+	background-color: #80ffbf; 
+}
+
+div.menu a {
+	display: inline;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+}
+
+/* div.menu:hover { */
+	/* background-color: #66b319;  */
+	/*olive green*/
+/* } */
+
+div.menu a:hover {
+	color: deeppink;
+}

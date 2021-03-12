@@ -1,0 +1,29 @@
+input, select{
+	display: block;
+	margin: 2% auto;
+	height: 45px;
+	font-size: 25px;
+}
+
+input.general{
+	text-align: center;
+
+}
+
+input.buttons {
+	display: inline;
+	font-weight: bold;
+	width: 200px;
+}
+
+textarea {
+	display: block;
+	margin: 2% auto;
+	height: 80px;
+	font-size: 20px;
+}
+
+input, select, textarea {
+	/* width: 55%; */
+	width: 600px;
+}
